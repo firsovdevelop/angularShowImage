@@ -1,0 +1,13 @@
+h1 {
+  color: #3596E9;
+}
+
+.load-more-block {
+  clear: both;
+  width: 100%;
+}
+
+.load-more-btn {
+  width: 180px;
+  margin: 0 auto;
+}

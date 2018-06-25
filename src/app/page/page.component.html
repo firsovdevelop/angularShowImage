@@ -1,0 +1,5 @@
+<div class="img-block"
+     *ngFor="let image of images | slice:0:9; let i=index"
+     (click)="showImage(image)">
+        <img [src]="image.thumbnailUrl" title={{image.title}}>
+</div>

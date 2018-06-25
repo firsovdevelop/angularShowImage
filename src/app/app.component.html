@@ -1,0 +1,10 @@
+<h1>Список изображений</h1>
+<page *ngFor="let page of pages"
+      [pageNumber]="page">
+</page>
+<div class="load-more-block">
+  <div class="load-more-btn" *ngIf="!globalData.isEnd">
+    <button (click)="loadMore()" [disabled]="globalData.isLoad">Загрузить еще</button>
+  </div>
+</div>
+<popup-image></popup-image>

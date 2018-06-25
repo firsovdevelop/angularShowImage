@@ -1,0 +1,5 @@
+<div *ngIf="globalData.showPopup" id="myModal" class="modal">
+  <span class="close" (click)="closePopup()">&times;</span>
+  <img class="modal-content" [src]="globalData.currentImage.url" title="globalData.currentImage.title" id="img01" (click)="closePopup()">
+  <div id="caption">{{globalData.currentImage.title}}</div>
+</div>
