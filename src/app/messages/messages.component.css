@@ -1,0 +1,8 @@
+.message-block > div {
+  padding: 5px;
+  margin: 2px;
+  width: 300px;
+  background: #ccc;
+  color: #fff;
+  font-size: 12px;
+}
