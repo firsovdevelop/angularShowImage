@@ -5,12 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 import { PopupImageComponent } from './popup-image/popup-image.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageComponent,
-    PopupImageComponent
+    PopupImageComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,

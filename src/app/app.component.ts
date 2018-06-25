@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Image } from './image';
 import { GlobalDataService } from './global-data.service';
+import { MessageService } from './message.service';
 
 @Component({
   selector: 'app-root',

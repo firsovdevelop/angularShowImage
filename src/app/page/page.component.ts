@@ -4,6 +4,7 @@ import { Image } from '../image';
 
 import { ImageService } from '../image.service';
 import { GlobalDataService } from '../global-data.service';
+import { MessageService } from '../message.service';
 
 @Component({
   selector: 'page',
@@ -22,7 +23,8 @@ export class PageComponent implements OnInit {
 
   constructor(
               private imageService: ImageService,
-              private globalData: GlobalDataService
+              private globalData: GlobalDataService,
+              private messageService: MessageService
               ) { }
 
   loadPage(perPage: number, page: number): void {
