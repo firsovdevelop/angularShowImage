@@ -43,7 +43,7 @@ export class ImageService {
   }
 
   private log(message: string) {
-    this.messageService.add('Сервис загрузики изображений: ' + message);
+    this.messageService.add('Сервис загрузки изображений: ' + message);
   }
 
   private handleError<T> (operation = 'operation', result?: T) {
